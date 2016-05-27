@@ -115,22 +115,26 @@
 				color: white;
 			}
 			
-			#proglangs {
+			#proglangtable {
 				width: 50%;
 				margin-left: 25%;
 				height: 30%;
 				margin-top: 100px;
 				border-style: inset;
-				display: block;
 				text-align: center;
-				display: inline-block;
+			}
+			
+			#proglangs {
+				width: 100%;
+				height: 100%;
+				display: table-row;
 			}
 			
 			#proglangstwo {
-				width: 32.9%;
+				width: 33%;
 				height: 100%;
 				border: 2px solid black;
-				display: inline-block;
+				display: table-cell;
 			}
 			#scratchlogo {
 				width: 90%;
@@ -171,16 +175,18 @@
 				<img src="bodyimg2.png" id="bodyimgimg"></img>
 			</div>
 			
-			<div id="proglangs">
-				<div id="proglangstwo">
-					<img src="scratchlogo.png" id="scratchlogo"></img>
-					Scratch
-				</div>
-				<div id="proglangstwo">
-					JavaScript
-				</div>
-				<div id="proglangstwo">
-					Java
+			<div id="proglangtable">
+				<div id="proglangs">
+					<div id="proglangstwo">
+						<img src="scratchlogo.png" id="scratchlogo"></img>
+						Scratch
+					</div>
+					<div id="proglangstwo">
+						JavaScript
+					</div>
+					<div id="proglangstwo">
+						Java
+					</div>
 				</div>
 			</div>
 		</div>
